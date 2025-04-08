@@ -25,7 +25,7 @@ int main ( void ) {
     } else if(imc >= 30.0 && imc < 35.0) {
         printf("IMC: %.2f\nCuidado! Obesidade grau I!", imc);
     } else if(imc >= 35.0 && imc < 40.0) {
-        printf("IMC: %.2f\n Cuidado! Obesidade grau II!", imc);
+        printf("IMC: %.2f\nCuidado! Obesidade grau II!", imc);
     } else {
         printf("IMC: %.2f\nMuito cuidado!!! Obesidade grau III!", imc);
     }

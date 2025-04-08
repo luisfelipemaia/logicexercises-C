@@ -24,7 +24,7 @@ int main ( void ) {
 
             c = (f - 32) / 1.8;
         
-            printf("%.2f graus Fahrenheit correspondem a %.2f graus Celsius", c, f);
+            printf("%.2f graus Fahrenheit correspondem a %.2f graus Celsius", f, c);
             break;
         default:
             printf("Opcao invalida!");
